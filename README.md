@@ -1,12 +1,12 @@
 # Páginas da Vida — protótipo
 
-Experiência interativa em três atos para o tema **“Protagonista ou coadjuvante?”**. O protótipo contém somente os capítulos 27, 104 e 219.
+Experiência interativa em três atos para o tema **“Protagonista ou coadjuvante?”**. A demonstração atual contém oito capítulos aprovados.
 
 O mesmo QR Code revela progressivamente a experiência, a revelação e a conclusão de cada capítulo. O modo atual é compartilhado entre todos os celulares por um único registro protegido no Supabase.
 
 ## Abrir e testar
 
-Inicie um servidor local na pasta do projeto e abra `/?capitulo=27`, `/?capitulo=104` ou `/?capitulo=219`. Use `/?capitulo=999` para validar o tratamento de capítulo inexistente. Evite abrir o HTML diretamente; um servidor local reproduz melhor a publicação.
+Inicie um servidor local na pasta do projeto e abra `/?capitulo=27`, `43`, `68`, `104`, `132`, `176`, `219` ou `245`. Use `/?capitulo=999` para validar o tratamento de capítulo inexistente. Evite abrir o HTML diretamente; um servidor local reproduz melhor a publicação.
 
 ## Alterar ou adicionar histórias
 

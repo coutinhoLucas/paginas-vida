@@ -8,7 +8,7 @@ base_url = sys.argv[1].rstrip("?") if len(sys.argv) > 1 else "http://localhost:8
 output = Path(__file__).resolve().parents[1] / "assets" / "qr"
 output.mkdir(parents=True, exist_ok=True)
 
-for chapter in (27, 104, 219):
+for chapter in (27, 43, 68, 104, 132, 176, 219, 245):
     separator = "&" if "?" in base_url else "?"
     url = f"{base_url}{separator}{urlencode({'capitulo': chapter})}"
     qr = qrcode.QRCode(version=None, error_correction=qrcode.constants.ERROR_CORRECT_Q, box_size=16, border=4)

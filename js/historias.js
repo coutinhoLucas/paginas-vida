@@ -111,5 +111,195 @@ window.HISTORIAS = {
         fraseFinal: "CONTINUE CONFIANDO."
       }
     }
+  },
+  "43": {
+    titulo: "A Porta Aberta",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Uma possibilidade surgiu\nquando você menos esperava.",
+          "O caminho parecia improvável.\nAs circunstâncias não estavam prontas.\nTalvez você também não estivesse.",
+          "Ainda assim, a porta se abriu.",
+          "Agora você se pergunta\nse deve atravessá-la.",
+          "Nem toda oportunidade revela imediatamente\naonde irá nos levar.",
+          "Às vezes, o Diretor abre uma porta\nantes de mostrar a próxima cena."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você viu uma porta aberta\ne tentou imaginar tudo o que existia depois dela.",
+          "Criou expectativas.\nCalculou possibilidades.\nTentou prever o final.",
+          "Mas aquela porta não era o roteiro completo.",
+          "Era apenas o começo de uma nova cena.",
+          "O Diretor não prometeu revelar\ntodo o caminho de uma vez.",
+          "Ele apenas pediu que você confiasse\nno próximo passo."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez essa porta leve exatamente\naonde você espera.",
+          "Talvez ela conduza por um caminho diferente\ndaquele que você imaginou.",
+          "Mas sua segurança nunca esteve\nem conhecer antecipadamente o destino.",
+          "Sua segurança está em conhecer o Diretor.",
+          "Atravesse com humildade.\nCaminhe com sabedoria.\nE continue atento à voz de Deus."
+        ],
+        citacao: "“Reconheça o Senhor em todos os seus caminhos, e ele endireitará as suas veredas.”",
+        referencia: "Provérbios 3:6",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "68": {
+    titulo: "A Perda",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você não estava preparado\npara se despedir.",
+          "Havia planos que ainda não tinham acontecido.\nPalavras que não foram ditas.\nMomentos que pareciam garantidos.",
+          "Então alguma coisa terminou.",
+          "E, por mais que você procure explicações,\nalgumas ausências não cabem em respostas simples.",
+          "Talvez esta seja uma daquelas páginas\nque você nunca escolheria escrever."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você leu a página da perda\ne pensou que ela definiria toda a história.",
+          "A dor ocupou tanto espaço\nque ficou difícil enxergar qualquer coisa além dela.",
+          "Mas o Diretor não ignora suas lágrimas.",
+          "Ele não apressa seu luto.\nNão diminui sua ausência.\nNão exige que você finja estar bem.",
+          "Há capítulos que não precisam ser explicados agora.",
+          "Precisam apenas ser atravessados\nna presença de Deus."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "O que foi perdido deixou marcas.",
+          "E algumas delas permanecerão.",
+          "Mas a dor não significa\nque o Diretor abandonou a história.",
+          "Mesmo nas páginas que você não compreende,\nEle continua presente.",
+          "Você pode chorar.\nPode sentir saudade.\nPode precisar de tempo.",
+          "A esperança não apaga aquilo que aconteceu.\nEla apenas declara que a perda não terá a palavra final."
+        ],
+        citacao: "“Perto está o Senhor dos que têm o coração quebrantado.”",
+        referencia: "Salmos 34:18",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "132": {
+    titulo: "O Encontro",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Parecia apenas mais um dia.",
+          "Um lugar comum.\nUma conversa inesperada.\nAlguém que cruzou o seu caminho.",
+          "Você não imaginava\nque aquele encontro teria tanta importância.",
+          "Algumas pessoas chegam discretamente\ne mudam a direção de capítulos inteiros.",
+          "Talvez aquilo que pareceu coincidência\njá estivesse previsto no roteiro."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você percebeu a importância daquele encontro\ne tentou entender por que ele aconteceu.",
+          "Talvez tenha sido para permanecer.\nTalvez tenha sido para ensinar.\nTalvez tenha sido para despertar algo em você.",
+          "Nem toda pessoa que participa da história\npermanece até a última página.",
+          "Mas nenhum encontro precisa ser eterno\npara ter propósito.",
+          "O Diretor também escreve por meio\ndas pessoas que coloca em nosso caminho."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Agradeça por quem chegou.",
+          "Aprenda com o que esse encontro revelou.\nOfereça também aquilo que Deus colocou em você.",
+          "Talvez você esteja olhando para alguém\nque transformará parte da sua história.",
+          "Ou talvez seja você\na resposta que essa pessoa pediu a Deus.",
+          "Não trate como comum\naquilo que pode ter sido cuidadosamente dirigido."
+        ],
+        citacao: "“Assim como o ferro afia o ferro, o homem afia o seu companheiro.”",
+        referencia: "Provérbios 27:17",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "176": {
+    titulo: "A Conquista",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você chegou.",
+          "Depois de tantas tentativas,\no resultado finalmente apareceu.",
+          "O esforço valeu a pena.\nA oração recebeu uma resposta.\nAquilo que parecia distante agora é real.",
+          "Por um instante, você olhou para trás\ne percebeu quanto caminho percorreu.",
+          "Talvez esta seja a página\nque você esperou durante muito tempo para ler."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você recebeu aquilo que desejava\ne pensou que havia chegado ao final da história.",
+          "Mas toda conquista também abre\num novo capítulo.",
+          "A resposta traz responsabilidades.\nA chegada revela novos caminhos.\nA bênção também exige maturidade.",
+          "O Diretor não conduziu você até aqui\napenas para entregar um momento de celebração.",
+          "Talvez essa conquista seja uma ferramenta\npara algo maior do que você consegue enxergar."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Celebre esta página.",
+          "Reconheça o esforço.\nAgradeça às pessoas que caminharam com você.\nE, acima de tudo, lembre-se de Deus.",
+          "Não transforme a conquista\nno centro da sua história.",
+          "Ela é um presente, não o Diretor.",
+          "Receba com gratidão.\nAdministre com sabedoria.\nUse para servir."
+        ],
+        citacao: "“Tudo vem de ti, e nós apenas te damos o que vem das tuas mãos.”",
+        referencia: "1 Crônicas 29:14",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "245": {
+    titulo: "O Silêncio",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você perguntou.",
+          "Esperou.\nProcurou sinais.\nTentou ouvir alguma direção.",
+          "Mas tudo permaneceu em silêncio.",
+          "Nenhuma resposta clara.\nNenhuma porta evidente.\nNenhuma explicação.",
+          "Talvez você tenha começado a pensar\nque Deus não estava ouvindo.",
+          "Mas o silêncio do Diretor\nnão significa sua ausência na história."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você interpretou o silêncio\ncomo se nada estivesse acontecendo.",
+          "Porque não conseguia ouvir,\npensou que Deus não estava agindo.",
+          "Mas existem cenas sendo preparadas\nlonge dos olhos do público.",
+          "Há movimentos que você ainda não percebe.\nRespostas que ainda não poderia compreender.\nCaminhos que estão sendo alinhados.",
+          "O Diretor não deixou de trabalhar\napenas porque você não ouviu sua voz."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez o silêncio continue\npor mais algum tempo.",
+          "Você ainda pode não receber\na explicação que gostaria.",
+          "Mas não precisa preencher o silêncio\ncom medo, culpa ou desespero.",
+          "Permaneça perto de Deus.\nContinue fazendo o que já sabe ser certo.",
+          "Não abandone no escuro\naquilo que Ele mostrou na luz."
+        ],
+        citacao: "“Somente em Deus, ó minha alma, espera silenciosa.”",
+        referencia: "Salmos 62:5",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
   }
 };
