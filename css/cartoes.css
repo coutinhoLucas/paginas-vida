@@ -11,4 +11,7 @@ body { margin: 0; background: #ddd; font-family: Inter, sans-serif; }
 .card__bottom span { height: .25mm; flex: 1; background: #8f774e; }
 .card__bottom p { margin: 0; text-align: center; font-size: 5.5pt; line-height: 1.45; letter-spacing: .13em; }
 @media print { @page { size: A4; margin: 10mm; } body { background: white; print-color-adjust: exact; -webkit-print-color-adjust: exact; } .sheet { padding: 0; } }
-@media (max-width: 700px) { .sheet { grid-template-columns: 85mm; } }
+@media (max-width: 700px) {
+  .sheet { grid-template-columns: min(85mm, calc(100vw - 2rem)); padding: 1rem; }
+  .card { width: 100%; height: auto; aspect-ratio: 85 / 55; }
+}
