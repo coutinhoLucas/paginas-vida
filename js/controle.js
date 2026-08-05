@@ -3,9 +3,10 @@ window.CONTROLE = (() => {
   const validModes = ["experiencia", "revelacao", "conclusao"];
   const fallback = { modo: localStorage.getItem("paginas-vida-modo") || "experiencia", offline: true };
 
-  const headers = (token = null) => {
-    const result = { apikey: config.publishableKey, "Content-Type": "application/json" };
+  const headers = (token = null, hasBody = false) => {
+    const result = { apikey: config.publishableKey };
     if (token) result.Authorization = `Bearer ${token}`;
+    if (hasBody) result["Content-Type"] = "application/json";
     return result;
   };
 
@@ -32,7 +33,7 @@ window.CONTROLE = (() => {
     if (!ready()) throw new Error("O controle compartilhado ainda não foi configurado.");
     const response = await fetch(`${config.supabaseUrl}/auth/v1/token?grant_type=password`, {
       method: "POST",
-      headers: headers(),
+      headers: headers(null, true),
       body: JSON.stringify({ email, password })
     });
     const data = await response.json();
@@ -51,7 +52,7 @@ window.CONTROLE = (() => {
     if (!token) throw new Error("Faça login novamente.");
     const response = await fetch(`${config.supabaseUrl}/rest/v1/controle?id=eq.1`, {
       method: "PATCH",
-      headers: { ...headers(token), Prefer: "return=representation" },
+      headers: { ...headers(token, true), Prefer: "return=representation" },
       body: JSON.stringify({
         modo: newMode,
         modo_anterior: currentMode,
