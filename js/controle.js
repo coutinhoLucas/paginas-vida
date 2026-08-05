@@ -3,11 +3,11 @@ window.CONTROLE = (() => {
   const validModes = ["experiencia", "revelacao", "conclusao"];
   const fallback = { modo: localStorage.getItem("paginas-vida-modo") || "experiencia", offline: true };
 
-  const headers = (token = config.publishableKey) => ({
-    apikey: config.publishableKey,
-    Authorization: `Bearer ${token}`,
-    "Content-Type": "application/json"
-  });
+  const headers = (token = null) => {
+    const result = { apikey: config.publishableKey, "Content-Type": "application/json" };
+    if (token) result.Authorization = `Bearer ${token}`;
+    return result;
+  };
 
   const ready = () => Boolean(config.supabaseUrl && config.publishableKey);
 
