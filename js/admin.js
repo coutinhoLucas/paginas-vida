@@ -11,7 +11,7 @@
   const invitation = new URLSearchParams(location.hash.slice(1));
   const invitationToken = invitation.get("access_token");
 
-  if (invitation.get("type") === "invite" && invitationToken) {
+  if (["invite", "recovery"].includes(invitation.get("type")) && invitationToken) {
     loginPanel.hidden = true;
     passwordPanel.hidden = false;
   }
