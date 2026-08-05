@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090a0c">
+    <meta name="description" content="Uma página. Uma história maior.">
+    <title>Páginas da Vida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <main class="experience" aria-live="polite">
+      <article class="page" id="story" hidden>
+        <header class="page__header">
+          <p class="eyebrow">PÁGINAS DA VIDA</p>
+          <p class="chapter" id="chapter"></p>
+          <h1 id="title"></h1>
+          <span class="rule" aria-hidden="true"></span>
+        </header>
+        <div class="story-text" id="text"></div>
+        <footer class="page__footer">
+          <p id="closing"></p>
+          <span class="page-number" id="page-number" aria-hidden="true"></span>
+        </footer>
+      </article>
+
+      <section class="state" id="error" hidden>
+        <p class="eyebrow">PÁGINAS DA VIDA</p>
+        <p class="state__code">CENA NÃO ENCONTRADA</p>
+        <h1>Esta página não faz parte deste roteiro.</h1>
+        <p>Confira o QR Code do seu cartão e tente novamente.</p>
+      </section>
+    </main>
+    <noscript>Ative o JavaScript para ler este capítulo.</noscript>
+    <script src="js/historias.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

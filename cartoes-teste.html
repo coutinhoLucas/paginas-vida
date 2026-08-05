@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cartões de teste — Páginas da Vida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/cartoes.css">
+</head>
+<body>
+  <main class="sheet" id="cards"></main>
+  <script>
+    const chapters = [27, 104, 219, 27, 104];
+    const cards = document.querySelector('#cards');
+    chapters.forEach((chapter) => {
+      cards.insertAdjacentHTML('beforeend', `
+        <article class="card">
+          <div class="card__top"><span>PÁGINAS DA VIDA</span><span>ATO I</span></div>
+          <div class="card__center">
+            <p>CAPÍTULO</p><strong>${chapter}</strong>
+            <img src="assets/qr/capitulo-${chapter}.png" alt="QR Code do capítulo ${chapter}">
+          </div>
+          <div class="card__bottom">
+            <span></span><p>NÃO LEIA ATÉ O<br>MOMENTO INDICADO.</p><span></span>
+          </div>
+        </article>`);
+    });
+  </script>
+</body>
+</html>
