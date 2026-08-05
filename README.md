@@ -1,6 +1,8 @@
 # Páginas da Vida — protótipo
 
-Experiência interativa para o tema **“Protagonista ou coadjuvante?”**. O protótipo contém somente os capítulos 27, 104 e 219.
+Experiência interativa em três atos para o tema **“Protagonista ou coadjuvante?”**. O protótipo contém somente os capítulos 27, 104 e 219.
+
+O mesmo QR Code revela progressivamente a experiência, a revelação e a conclusão de cada capítulo. O modo atual é compartilhado entre todos os celulares por um único registro protegido no Supabase.
 
 ## Abrir e testar
 
@@ -8,7 +10,15 @@ Inicie um servidor local na pasta do projeto e abra `/?capitulo=27`, `/?capitulo
 
 ## Alterar ou adicionar histórias
 
-Edite `js/historias.js`. Cada história usa o número do capítulo como chave e possui `titulo`, `paragrafos` e `fraseFinal`. A lógica e o visual não precisam ser alterados.
+Edite `js/historias.js`. Cada capítulo usa seu número como chave e contém os momentos `experiencia`, `revelacao` e `conclusao`. A lógica e o visual não precisam ser alterados.
+
+## Painel de controle
+
+Abra `/admin.html`, faça login e confira o modo atual. Cada mudança exige confirmação. Antes de anunciar a troca no palco, use “Abrir página de teste” e confirme o novo texto.
+
+Se a consulta online falhar, o participante continua vendo o último modo carregado no aparelho. O painel exibe um alerta e bloqueia alterações até recuperar a conexão.
+
+O arquivo `supabase.sql` documenta a tabela e as políticas de segurança. `js/config.js` contém somente a URL e a chave publicável; chaves secretas nunca devem ser colocadas no site.
 
 ## Gerar QR Codes
 
@@ -55,9 +65,15 @@ O site não exige compilação. Publique a raiz do branch `main` em **Settings �
 assets/qr/          QR Codes gerados
 css/styles.css      visual do site
 css/cartoes.css     visual para impressão
+css/admin.css       visual do painel de controle
 js/historias.js     conteúdo dos capítulos
-js/app.js           leitura da URL e exibição
+js/controle.js      consulta e alteração do modo compartilhado
+js/config.js        conexão pública protegida por políticas
+js/app.js           leitura da URL e exibição do ato atual
+js/admin.js         operação do painel administrativo
 scripts/gerar_qr.py gerador dos QR Codes
 index.html          experiência principal
+admin.html          painel protegido da equipe
 cartoes-teste.html  folha com cinco cartões
+supabase.sql        estrutura do controle compartilhado
 ```

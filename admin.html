@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow">
+  <title>Controle da experiência — Páginas da Vida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body><main class="admin">
+  <header><p class="eyebrow">PÁGINAS DA VIDA</p><h1>Controle da experiência</h1></header>
+  <section class="login panel" id="login-panel"><h2>Acesso da equipe</h2><form id="login-form">
+    <label>E-mail<input type="email" id="email" autocomplete="username" required></label>
+    <label>Senha<input type="password" id="password" autocomplete="current-password" required></label>
+    <button type="submit">ENTRAR</button><p class="feedback" id="login-feedback" role="status"></p>
+  </form></section>
+  <section id="control-panel" hidden>
+    <div class="status panel"><div><span>MODO ATUAL</span><strong id="current-mode">CARREGANDO</strong></div><div><span>ÚLTIMA ALTERAÇÃO</span><time id="updated-at">—</time></div></div>
+    <div class="warning" id="offline-warning" hidden>Não foi possível confirmar o modo online. Não anuncie a mudança no palco.</div>
+    <div class="modes">
+      <button class="mode-card" data-mode="experiencia"><span>01</span><strong>EXPERIÊNCIA</strong><small>Sentir</small></button>
+      <button class="mode-card" data-mode="revelacao"><span>02</span><strong>REVELAÇÃO</strong><small>Entender</small></button>
+      <button class="mode-card" data-mode="conclusao"><span>03</span><strong>CONCLUSÃO</strong><small>Confiar</small></button>
+    </div>
+    <div class="actions"><button id="rollback" class="secondary">VOLTAR AO MODO ANTERIOR</button><a href="./?capitulo=27" target="_blank" rel="noopener">ABRIR PÁGINA DE TESTE</a><button id="logout" class="text-button">SAIR</button></div>
+    <p class="feedback" id="control-feedback" role="status"></p>
+  </section>
+</main>
+<dialog id="confirmation"><form method="dialog"><p class="eyebrow">CONFIRMAR ALTERAÇÃO</p><h2 id="confirmation-title"></h2><p>Todos os QR Codes passarão a exibir este modo na próxima abertura.</p><div><button value="cancel" class="secondary">CANCELAR</button><button value="confirm">CONFIRMAR</button></div></form></dialog>
+<script src="js/config.js"></script><script src="js/controle.js"></script><script src="js/admin.js"></script>
+</body></html>
