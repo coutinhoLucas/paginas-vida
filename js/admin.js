@@ -1,5 +1,6 @@
 (() => {
   const loginPanel = document.querySelector("#login-panel");
+  const passwordPanel = document.querySelector("#password-panel");
   const controlPanel = document.querySelector("#control-panel");
   const loginFeedback = document.querySelector("#login-feedback");
   const controlFeedback = document.querySelector("#control-feedback");
@@ -7,6 +8,13 @@
   const labels = { experiencia: "EXPERIÊNCIA", revelacao: "REVELAÇÃO", conclusao: "CONCLUSÃO" };
   let state = { modo: "experiencia", modo_anterior: null, offline: true };
   let pendingMode = null;
+  const invitation = new URLSearchParams(location.hash.slice(1));
+  const invitationToken = invitation.get("access_token");
+
+  if (invitation.get("type") === "invite" && invitationToken) {
+    loginPanel.hidden = true;
+    passwordPanel.hidden = false;
+  }
 
   function render() {
     document.querySelector("#current-mode").textContent = labels[state.modo];
@@ -28,6 +36,21 @@
       await window.CONTROLE.signIn(document.querySelector("#email").value, document.querySelector("#password").value);
       loginPanel.hidden = true; controlPanel.hidden = false; await refresh(); loginFeedback.textContent = "";
     } catch (error) { loginFeedback.textContent = error.message; }
+  });
+
+  document.querySelector("#password-form").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const feedback = document.querySelector("#password-feedback");
+    const password = document.querySelector("#new-password").value;
+    const confirmation = document.querySelector("#confirm-password").value;
+    if (password !== confirmation) { feedback.textContent = "As senhas não coincidem."; return; }
+    feedback.textContent = "Criando seu acesso...";
+    try {
+      await window.CONTROLE.updatePassword(invitationToken, password);
+      history.replaceState(null, "", location.pathname);
+      passwordPanel.hidden = true; controlPanel.hidden = false; await refresh();
+      controlFeedback.textContent = "Senha criada. O painel está pronto para uso.";
+    } catch (error) { feedback.textContent = error.message; }
   });
 
   function confirmMode(mode, prefix = "ATIVAR MODO") {

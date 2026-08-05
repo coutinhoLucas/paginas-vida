@@ -14,6 +14,11 @@
     <label>Senha<input type="password" id="password" autocomplete="current-password" required></label>
     <button type="submit">ENTRAR</button><p class="feedback" id="login-feedback" role="status"></p>
   </form></section>
+  <section class="login panel" id="password-panel" hidden><h2>Crie sua senha</h2><p>Este será seu acesso ao controle durante o culto.</p><form id="password-form">
+    <label>Nova senha<input type="password" id="new-password" autocomplete="new-password" minlength="8" required></label>
+    <label>Confirmar senha<input type="password" id="confirm-password" autocomplete="new-password" minlength="8" required></label>
+    <button type="submit">CRIAR SENHA</button><p class="feedback" id="password-feedback" role="status"></p>
+  </form></section>
   <section id="control-panel" hidden>
     <div class="status panel"><div><span>MODO ATUAL</span><strong id="current-mode">CARREGANDO</strong></div><div><span>ÚLTIMA ALTERAÇÃO</span><time id="updated-at">—</time></div></div>
     <div class="warning" id="offline-warning" hidden>Não foi possível confirmar o modo online. Não anuncie a mudança no palco.</div>
@@ -27,5 +32,5 @@
   </section>
 </main>
 <dialog id="confirmation"><form method="dialog"><p class="eyebrow">CONFIRMAR ALTERAÇÃO</p><h2 id="confirmation-title"></h2><p>Todos os QR Codes passarão a exibir este modo na próxima abertura.</p><div><button value="cancel" class="secondary">CANCELAR</button><button value="confirm">CONFIRMAR</button></div></form></dialog>
-<script src="js/config.js?v=2"></script><script src="js/controle.js?v=4"></script><script src="js/admin.js?v=2"></script>
+<script src="js/config.js?v=2"></script><script src="js/controle.js?v=5"></script><script src="js/admin.js?v=3"></script>
 </body></html>

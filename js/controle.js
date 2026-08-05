@@ -46,6 +46,18 @@ window.CONTROLE = (() => {
     sessionStorage.removeItem("paginas-vida-token");
   }
 
+  async function updatePassword(token, password) {
+    if (!ready() || !token) throw new Error("Este convite não é válido ou expirou.");
+    const response = await fetch(`${config.supabaseUrl}/auth/v1/user`, {
+      method: "PUT",
+      headers: headers(token, true),
+      body: JSON.stringify({ password })
+    });
+    if (!response.ok) throw new Error("Não foi possível criar a senha. Solicite um novo convite.");
+    sessionStorage.setItem("paginas-vida-token", token);
+    return response.json();
+  }
+
   async function setMode(newMode, currentMode) {
     if (!validModes.includes(newMode)) throw new Error("Modo inválido.");
     const token = sessionStorage.getItem("paginas-vida-token");
@@ -64,5 +76,5 @@ window.CONTROLE = (() => {
     return state;
   }
 
-  return { getMode, signIn, signOut, setMode, validModes };
+  return { getMode, signIn, signOut, updatePassword, setMode, validModes };
 })();
