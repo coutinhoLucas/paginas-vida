@@ -22,6 +22,11 @@ create policy "Administrador insere estado"
 on storage.objects for insert to authenticated
 with check (bucket_id = 'controle' and (auth.jwt()->>'email') = 'lucascousan@gmail.com');
 
+-- A atualização de um arquivo existente também exige permissão de leitura da linha.
+create policy "Administrador lê estado"
+on storage.objects for select to authenticated
+using (bucket_id = 'controle' and (auth.jwt()->>'email') = 'lucascousan@gmail.com');
+
 create policy "Administrador atualiza estado"
 on storage.objects for update to authenticated
 using (bucket_id = 'controle' and (auth.jwt()->>'email') = 'lucascousan@gmail.com')
