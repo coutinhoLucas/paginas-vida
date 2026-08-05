@@ -30,9 +30,9 @@ python scripts/gerar_qr.py https://USUARIO.github.io/paginas-vida/
 
 Os arquivos serão gravados em `assets/qr/`. Gere novamente sempre que o endereço público mudar.
 
-## Cartões de teste
+## Cartões de demonstração
 
-Abra `cartoes-teste.html` e imprima em A4, escala de 100%, com gráficos de fundo ativados. A folha contém cinco cartões em tamanho 85 × 55 mm. Não use “ajustar à página”.
+Abra `cartoes-teste.html` e imprima em A4, escala de 100%, com gráficos de fundo ativados. A folha contém os oito capítulos aprovados em cartões de 85 × 55 mm. Não use “ajustar à página”.
 
 ## Publicação no GitHub Pages
 
