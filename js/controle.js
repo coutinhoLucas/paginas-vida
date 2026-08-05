@@ -16,11 +16,11 @@ window.CONTROLE = (() => {
     if (!ready()) return fallback;
     try {
       const response = await fetch(
-        `${config.supabaseUrl}/rest/v1/controle?id=eq.1&select=modo,modo_anterior,atualizado_em&_=${Date.now()}`,
-        { headers: headers(), cache: "no-store" }
+        `${config.supabaseUrl}/storage/v1/object/public/controle/controle-inicial.json?_=${Date.now()}`,
+        { cache: "no-store" }
       );
       if (!response.ok) throw new Error("Não foi possível consultar o modo.");
-      const [state] = await response.json();
+      const state = await response.json();
       if (!state || !validModes.includes(state.modo)) throw new Error("Modo inválido.");
       localStorage.setItem("paginas-vida-modo", state.modo);
       return { ...state, offline: false };
@@ -50,17 +50,17 @@ window.CONTROLE = (() => {
     if (!validModes.includes(newMode)) throw new Error("Modo inválido.");
     const token = sessionStorage.getItem("paginas-vida-token");
     if (!token) throw new Error("Faça login novamente.");
-    const response = await fetch(`${config.supabaseUrl}/rest/v1/controle?id=eq.1`, {
-      method: "PATCH",
-      headers: { ...headers(token, true), Prefer: "return=representation" },
-      body: JSON.stringify({
-        modo: newMode,
-        modo_anterior: currentMode,
-        atualizado_em: new Date().toISOString()
-      })
+    const state = {
+      modo: newMode,
+      modo_anterior: currentMode,
+      atualizado_em: new Date().toISOString()
+    };
+    const response = await fetch(`${config.supabaseUrl}/storage/v1/object/controle/controle-inicial.json`, {
+      method: "PUT",
+      headers: { ...headers(token, true), "x-upsert": "true" },
+      body: JSON.stringify(state)
     });
     if (!response.ok) throw new Error("A alteração não foi autorizada.");
-    const [state] = await response.json();
     return state;
   }
 
