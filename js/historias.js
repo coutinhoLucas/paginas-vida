@@ -494,5 +494,198 @@ window.HISTORIAS = {
         fraseFinal: "CONTINUE CONFIANDO."
       }
     }
+  },
+  "34": {
+    titulo: "O Primeiro Passo",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você sabe que precisa começar.",
+          "A direção parece correta.\nO desejo existe.\nMas o caminho ainda parece grande demais.",
+          "Você olha para tudo o que falta\ne se pergunta se está realmente preparado.",
+          "Talvez esteja esperando coragem\npara dar o primeiro passo.",
+          "Mas, às vezes, a coragem só aparece\ndepois que você começa a caminhar."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você tentou enxergar o caminho inteiro\nantes de sair do lugar.",
+          "Queria conhecer os obstáculos.\nPrever os resultados.\nTer certeza de que conseguiria chegar.",
+          "Mas o Diretor não entregou\ntodas as páginas de uma vez.",
+          "Ele mostrou apenas o passo possível agora.",
+          "Talvez você ainda não tenha estrutura\npara percorrer todo o caminho.",
+          "Mas já recebeu o suficiente\npara começar."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "O primeiro passo pode parecer pequeno.",
+          "Talvez ninguém perceba.\nTalvez você ainda não sinta segurança.",
+          "Mas histórias também são construídas\ncom decisões discretas de obediência.",
+          "Não espere sentir-se completamente pronto.",
+          "Ore.\nOrganize o que estiver ao seu alcance.\nE comece com aquilo que Deus colocou em suas mãos.",
+          "O Diretor conhece o caminho\nque ainda não apareceu diante de você."
+        ],
+        citacao: "“Lâmpada para os meus pés é a tua palavra e luz para o meu caminho.”",
+        referencia: "Salmos 119:105",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "82": {
+    titulo: "A Dúvida",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você tinha certeza.",
+          "Então alguma coisa fez você questionar.",
+          "A direção que parecia clara\nagora está cercada de perguntas.",
+          "Você revisou as decisões.\nProcurou sinais.\nTentou descobrir onde perdeu a confiança.",
+          "Talvez sua dúvida não seja falta de fé.",
+          "Talvez seja o lugar\nonde sua fé está sendo examinada."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você encontrou uma dúvida\ne pensou que ela anulava tudo em que acreditava.",
+          "Como se confiar significasse\nnunca fazer perguntas.",
+          "Mas a dúvida também pode revelar\nonde sua confiança estava apoiada.",
+          "Em uma resposta?\nEm um resultado?\nNa sensação de controle?",
+          "O Diretor não se assusta com suas perguntas.",
+          "Ele pode usar essa página\npara conduzir você a uma fé mais profunda."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Você não precisa fingir certeza diante de Deus.",
+          "Apresente suas perguntas.\nReconheça seus medos.\nProcure respostas com humildade.",
+          "Mas não permita que a dúvida\nseja a única voz interpretando sua história.",
+          "Lembre-se do que Deus já fez.\nPermaneça perto de pessoas maduras.\nContinue buscando a verdade.",
+          "Mesmo uma fé que pede ajuda\nainda é fé."
+        ],
+        citacao: "“Eu creio! Ajuda-me na minha falta de fé!”",
+        referencia: "Marcos 9:24",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "121": {
+    titulo: "A Promessa",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você guardou aquelas palavras.",
+          "Elas trouxeram esperança\nquando o cenário dizia o contrário.",
+          "Por algum tempo, foi fácil acreditar.",
+          "Mas os dias passaram.\nAs circunstâncias mudaram.\nE a promessa pareceu cada vez mais distante.",
+          "Talvez você esteja se perguntando\nse entendeu tudo errado.",
+          "Ou se o Diretor ainda se lembra\ndo que falou."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você recebeu uma promessa\ne imaginou como ela deveria acontecer.",
+          "Criou prazos.\nDesenhou caminhos.\nEsperou determinados sinais.",
+          "Quando o roteiro seguiu outra direção,\nvocê pensou que a promessa havia falhado.",
+          "Mas você conhecia as palavras,\nnão todas as cenas entre elas e o cumprimento.",
+          "O Diretor também escreve\no processo que prepara você\npara aquilo que prometeu."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Nem toda expectativa pessoal\né uma promessa de Deus.",
+          "Por isso, volte às Escrituras.\nOre com sinceridade.\nPermita que Deus corrija suas interpretações.",
+          "Mas aquilo que Ele verdadeiramente prometeu\nnão depende da pressa humana.",
+          "Você pode não conhecer o tempo.\nPode não compreender o processo.",
+          "Ainda assim, pode confiar no caráter\nde quem fez a promessa."
+        ],
+        citacao: "“Fiel é aquele que prometeu.”",
+        referencia: "Hebreus 10:23",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "201": {
+    titulo: "O Plano Desfeito",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você havia pensado em tudo.",
+          "As datas estavam definidas.\nAs decisões pareciam certas.\nO caminho estava organizado.",
+          "Então o plano deixou de ser possível.",
+          "O que parecia garantido\nse desfez diante de você.",
+          "Agora restam perguntas\nno lugar onde antes havia direção.",
+          "Talvez você tenha perdido o plano.\nMas o Diretor não perdeu a história."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você olhou para o plano desfeito\ne concluiu que todo o esforço havia sido inútil.",
+          "Mas nem tudo o que não chegou ao destino\nfoi desperdício.",
+          "O processo ensinou.\nAs tentativas amadureceram você.\nAlgumas decisões revelaram\no que precisava mudar.",
+          "Seu plano era uma possibilidade,\nnão o roteiro completo.",
+          "O Diretor continua trabalhando\nmesmo quando precisa conduzir você\npara fora daquilo que havia planejado."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Você pode lamentar o plano que não aconteceu.",
+          "Não precisa fingir que não desejava aquele futuro.",
+          "Mas também não precisa construir sua identidade\nsobre uma possibilidade perdida.",
+          "Recolha o que aprendeu.\nEntregue o que não pode controlar.\nPermita-se planejar novamente.",
+          "Deus não precisa restaurar exatamente seu plano\npara continuar sendo fiel à sua história."
+        ],
+        citacao: "“Muitos são os planos no coração do homem, mas o propósito do Senhor permanecerá.”",
+        referencia: "Provérbios 19:21",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "276": {
+    titulo: "A Descoberta",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Alguma coisa ficou clara.",
+          "Talvez você tenha descoberto uma capacidade.\nUma verdade.\nUma direção que sempre esteve ali.",
+          "De repente, partes da história\ncomeçaram a fazer sentido.",
+          "Você percebeu algo sobre si mesmo,\nsobre alguém\nou sobre o caminho que estava percorrendo.",
+          "Algumas descobertas respondem perguntas.",
+          "Outras mudam todas elas."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você encontrou uma nova informação\ne tentou reinterpretar toda a história por ela.",
+          "Algumas cenas ganharam significado.\nOutras ficaram ainda mais difíceis de compreender.",
+          "Mas uma descoberta também é apenas uma página.",
+          "Você ainda não sabe tudo.\nAinda existem detalhes que não consegue enxergar.",
+          "O Diretor revelou aquilo\nque você precisava perceber agora.",
+          "A nova luz não foi entregue\npara alimentar seu orgulho.\nFoi entregue para orientar seus próximos passos."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Receba essa descoberta com humildade.",
+          "Se ela revelou um dom, use-o para servir.\nSe revelou um erro, permita-se mudar.\nSe mostrou uma direção, caminhe com sabedoria.",
+          "Não transforme uma nova compreensão\nna certeza de que conhece o roteiro inteiro.",
+          "Continue aprendendo.\nContinue ouvindo.",
+          "Continue permitindo que Deus revele\no que precisa ser transformado em você."
+        ],
+        citacao: "“Mostra-me os teus caminhos, Senhor; ensina-me as tuas veredas.”",
+        referencia: "Salmos 25:4",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
   }
 };
