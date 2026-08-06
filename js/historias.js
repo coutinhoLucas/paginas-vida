@@ -687,5 +687,200 @@ window.HISTORIAS = {
         fraseFinal: "CONTINUE CONFIANDO."
       }
     }
+  },
+  "75": {
+    titulo: "A Solidão",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você estava cercado de pessoas.",
+          "Ainda assim, sentiu-se sozinho.",
+          "Talvez ninguém tenha percebido.\nVocê continuou sorrindo.\nRespondeu que estava tudo bem.",
+          "Mas havia uma parte da sua história\nque parecia impossível de explicar.",
+          "Você queria ser compreendido.",
+          "E começou a se perguntar\nse alguém realmente conseguia enxergar você."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você leu a página da solidão\ne concluiu que havia sido esquecido.",
+          "O silêncio das pessoas pareceu confirmar\nque sua história não era importante.",
+          "Mas ser pouco compreendido\nnão significa ser invisível.",
+          "O Diretor conhece as palavras\nque você não conseguiu dizer.",
+          "Ele viu as noites difíceis,\nas perguntas escondidas\ne o esforço para continuar.",
+          "Mesmo quando ninguém percebeu sua dor,\nDeus não deixou de estar presente."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "A presença de Deus não elimina\na necessidade de pessoas.",
+          "Talvez seja hora de permitir\nque alguém confiável conheça essa página.",
+          "Procure ajuda.\nAceite companhia.\nNão transforme o isolamento\nem seu único lugar seguro.",
+          "Você não precisa atravessar tudo sozinho.",
+          "E, mesmo enquanto procura quem caminhe ao seu lado,\nlembre-se: o Diretor nunca perdeu você de vista."
+        ],
+        citacao: "“O Senhor irá adiante de você; ele nunca o deixará nem o abandonará.”",
+        referencia: "Deuteronômio 31:8",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "113": {
+    titulo: "A Escolha",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Dois caminhos apareceram diante de você.",
+          "Ambos pareciam possíveis.\nCada um exigia uma renúncia.",
+          "Você tentou prever os resultados.\nPediu sinais.\nProcurou uma certeza que eliminasse todo risco.",
+          "Mas a decisão continuou em suas mãos.",
+          "Algumas páginas não são escritas\napenas pelo que acontece conosco.",
+          "Também são escritas\npelas escolhas que fazemos."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você pensou que existia uma escolha perfeita,\ncapaz de impedir qualquer dificuldade.",
+          "Como se a decisão correta\ngarantisse um caminho sem conflitos.",
+          "Mas até escolhas sábias\npodem conduzir por cenas difíceis.",
+          "O Diretor não prometeu ausência de desafios.",
+          "Prometeu sabedoria, presença e direção.",
+          "A pergunta não é apenas\nqual caminho parece mais confortável.\nÉ qual deles permite que você permaneça fiel\nao que Deus está formando em você."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Você talvez não receba um sinal extraordinário.",
+          "Por isso, examine suas motivações.\nConsidere as consequências.\nOuça conselhos maduros.\nSubmeta seus desejos às Escrituras.",
+          "Depois, escolha com responsabilidade.",
+          "Não permita que o medo de errar\nmantenha você para sempre no mesmo lugar.",
+          "Mesmo quando não conhece todas as páginas,\nvocê pode decidir caminhando perto do Diretor."
+        ],
+        citacao: "“Seja a paz de Cristo o árbitro no coração de vocês.”",
+        referencia: "Colossenses 3:15",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "159": {
+    titulo: "O Sonho Realizado",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Aquilo que parecia distante aconteceu.",
+          "O sonho ganhou forma.\nA oração se tornou realidade.\nA cena que você imaginou tantas vezes\nfinalmente chegou.",
+          "Você sorriu.",
+          "Talvez também tenha se lembrado\ndos dias em que quase desistiu.",
+          "Algumas páginas são presentes\nque esperamos durante anos para receber."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você chegou ao lugar que desejava\ne percebeu que a história continuava.",
+          "O sonho realizado trouxe alegria.",
+          "Mas também trouxe novas responsabilidades,\nnovas decisões\ne desafios que você não havia imaginado.",
+          "O cumprimento não era a última página.",
+          "Era o começo de outra parte do roteiro.",
+          "O Diretor não entregou esse sonho\napenas para satisfazer um desejo.\nTalvez exista propósito\naquilo que agora está em suas mãos."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Celebre sem culpa.",
+          "Reconheça a bondade de Deus.\nAgradeça a quem caminhou com você.\nDescanse por um momento nessa conquista.",
+          "Mas não faça do sonho realizado\no centro da sua identidade.",
+          "Você continua pertencendo ao Diretor,\nnão ao resultado que alcançou.",
+          "Use essa página para servir, repartir\ne apontar para quem sustentou toda a história."
+        ],
+        citacao: "“Grandes coisas fez o Senhor por nós, e por isso estamos alegres.”",
+        referencia: "Salmos 126:3",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "228": {
+    titulo: "A Porta Fechada",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você tentou entrar.",
+          "Preparou-se.\nEsperou o momento certo.\nAcreditou que aquela oportunidade\nfazia parte do caminho.",
+          "Mas a porta não se abriu.",
+          "Talvez outra pessoa tenha entrado.\nTalvez você nem tenha recebido uma explicação.",
+          "Agora precisa lidar\ncom um futuro diferente daquele que imaginou.",
+          "E com a pergunta:\nPor que o Diretor permitiu que essa porta fechasse?"
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você olhou para a porta fechada\ne a interpretou como rejeição.",
+          "Pensou que não era capaz.\nQue havia perdido sua única oportunidade.\nOu que Deus tinha se esquecido de você.",
+          "Mas uma porta fechada\nnão possui autoridade para definir seu valor.",
+          "Ela revela apenas\nque aquele caminho não continuou.",
+          "O Diretor conhece o que existia depois da porta.",
+          "E também conhece caminhos\nque você ainda não considerou."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez essa porta nunca volte a se abrir.",
+          "Talvez, no futuro, você compreenda o motivo.\nTalvez não.",
+          "Ainda assim, você não precisa permanecer\ndiante dela para sempre.",
+          "Aprenda o que for possível.\nCuide das feridas da rejeição.\nE volte a olhar ao redor.",
+          "O fim de uma possibilidade\nnão significa o fim do propósito.",
+          "O Diretor não depende de uma única porta\npara continuar sua história."
+        ],
+        citacao: "“Eu o instruirei e lhe ensinarei o caminho que você deve seguir.”",
+        referencia: "Salmos 32:8",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "289": {
+    titulo: "O Novo Caminho",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você não planejava chegar até aqui.",
+          "O cenário é diferente.\nAs pessoas são outras.\nAs referências que davam segurança\nficaram para trás.",
+          "Agora existe um novo caminho diante de você.",
+          "Ele desperta esperança.",
+          "Mas também traz o desconforto\nde não saber o que encontrará adiante.",
+          "Todo começo possui uma parte\nque ainda não foi escrita."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você comparou o novo caminho\ncom tudo aquilo que conhecia.",
+          "Tentou encontrar as mesmas respostas,\nos mesmos sinais\ne a mesma segurança da estrada anterior.",
+          "Mas novas páginas exigem\numa forma diferente de caminhar.",
+          "O Diretor não está apenas levando você\npara outro cenário.",
+          "Talvez esteja formando em você\numa nova maneira de confiar.",
+          "O desconhecido para você\nnão é desconhecido para Deus."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Você não precisa apagar o caminho anterior\npara abraçar o novo.",
+          "Leve consigo os aprendizados.\nHonre aquilo que passou.\nMas não permita que a saudade\nimpeça o próximo passo.",
+          "Observe o que Deus está fazendo agora.",
+          "Há graça para o cenário atual,\ndireção para as novas decisões\ne presença para os dias desconhecidos.",
+          "O Diretor já está no caminho\nque você está começando a percorrer."
+        ],
+        citacao: "“Conduzirei os cegos por caminhos que não conheceram.”",
+        referencia: "Isaías 42:16",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
   }
 };
