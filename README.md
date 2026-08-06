@@ -1,12 +1,12 @@
 # Páginas da Vida — protótipo
 
-Experiência interativa em três atos para o tema **“Protagonista ou coadjuvante?”**. A demonstração atual contém oito capítulos aprovados.
+Experiência interativa em três atos para o tema **“Protagonista ou coadjuvante?”**. A demonstração atual contém treze capítulos aprovados.
 
 O mesmo QR Code revela progressivamente a experiência, a revelação e a conclusão de cada capítulo. O modo atual é compartilhado entre todos os celulares por um único registro protegido no Supabase.
 
 ## Abrir e testar
 
-Inicie um servidor local na pasta do projeto e abra `/?capitulo=27`, `43`, `68`, `104`, `132`, `176`, `219` ou `245`. Use `/?capitulo=999` para validar o tratamento de capítulo inexistente. Evite abrir o HTML diretamente; um servidor local reproduz melhor a publicação.
+Inicie um servidor local na pasta do projeto e use `/?capitulo=NUMERO`. Capítulos disponíveis: 27, 43, 56, 68, 91, 104, 132, 147, 176, 188, 219, 245 e 263. Use `/?capitulo=999` para validar o tratamento de capítulo inexistente.
 
 ## Alterar ou adicionar histórias
 
@@ -32,7 +32,7 @@ Os arquivos serão gravados em `assets/qr/`. Gere novamente sempre que o endere�
 
 ## Cartões de demonstração
 
-Abra `cartoes-teste.html` e imprima em A4, escala de 100%, com gráficos de fundo ativados. A folha contém os oito capítulos aprovados em cartões de 85 × 55 mm. Não use “ajustar à página”.
+Abra `cartoes-teste.html` e imprima em A4, escala de 100%, com gráficos de fundo ativados. A folha contém os treze capítulos aprovados em cartões de 85 × 55 mm. Não use “ajustar à página”.
 
 ## Publicação no GitHub Pages
 

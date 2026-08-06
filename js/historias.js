@@ -301,5 +301,198 @@ window.HISTORIAS = {
         fraseFinal: "CONTINUE CONFIANDO."
       }
     }
+  },
+  "56": {
+    titulo: "A Oportunidade",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Uma possibilidade apareceu.",
+          "Talvez você tenha pedido por ela.\nTalvez nem soubesse que estava procurando.",
+          "Agora existe uma escolha diante de você.",
+          "Seguir pode mudar seus planos.\nRecusar também pode mudar sua história.",
+          "Nem toda oportunidade chega acompanhada\nde certeza.",
+          "Às vezes, o Diretor apresenta uma nova cena\ne espera que você procure sua direção."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você viu uma oportunidade\ne tentou descobrir imediatamente\nse ela daria certo.",
+          "Calculou os ganhos.\nImaginou os riscos.\nTentou antecipar o resultado.",
+          "Mas uma porta aberta\nnão revela todo o caminho.",
+          "Nem toda oportunidade deve ser aceita.\nNem todo receio significa que você deve recuar.",
+          "Antes de decidir, olhe além da possibilidade.",
+          "Procure a vontade do Diretor."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez esta oportunidade faça parte\ndo próximo capítulo.",
+          "Talvez Deus a esteja usando\napenas para revelar o que existe em seu coração.",
+          "Você não precisa decidir movido pela pressa,\npelo medo ou pela necessidade de provar algo.",
+          "Ore.\nBusque sabedoria.\nOuça conselhos maduros.",
+          "Se for tempo de avançar, caminhe com coragem.\nSe for tempo de esperar, permaneça em paz."
+        ],
+        citacao: "“Se alguém necessita de sabedoria, peça-a a Deus.”",
+        referencia: "Tiago 1:5",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "91": {
+    titulo: "A Despedida",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você sabia que esse momento chegaria.",
+          "Ainda assim, não foi fácil.",
+          "Alguns caminhos se separaram.\nUma estação terminou.\nO que fazia parte da sua rotina\nagora pertence às lembranças.",
+          "Você gostaria de guardar aquela cena\npor mais algum tempo.",
+          "Mas existem páginas que só podem continuar\ndepois de uma despedida."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você olhou para a despedida\ncomo se tudo o que viveu estivesse sendo perdido.",
+          "Mas o fim de uma estação\nnão apaga o que ela produziu.",
+          "As conversas permanecem.\nOs aprendizados acompanham você.\nO amor não deixa de ter existido\nporque o cenário mudou.",
+          "O Diretor também usa pessoas e lugares\nque participam apenas de alguns capítulos.",
+          "Eles podem não permanecer no roteiro inteiro\ne ainda assim fazer parte do propósito."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Não é falta de fé sentir saudade.",
+          "Você pode agradecer pelo que viveu\ne chorar porque terminou.",
+          "Pode honrar o capítulo anterior\nsem tentar morar para sempre nele.",
+          "Entregue ao Diretor\naquilo que você não consegue levar adiante.",
+          "A despedida não precisa transformar\numa história bonita em uma história triste.",
+          "Algumas páginas terminam\nporque chegou o momento de virar a folha."
+        ],
+        citacao: "“Há tempo de abraçar e tempo de afastar-se de abraçar.”",
+        referencia: "Eclesiastes 3:5",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "147": {
+    titulo: "A Resposta",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Durante muito tempo, você perguntou.",
+          "Procurou sinais.\nRepetiu orações.\nTentou compreender o silêncio.",
+          "Então a resposta chegou.",
+          "Talvez não tenha vindo\nda forma que você imaginava.",
+          "Talvez tenha sido exatamente\no que você esperava ouvir.",
+          "Depois de tanto desejar uma resposta,\nagora você precisa decidir\no que fará com ela."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você pensou que a resposta\nencerraria todas as dúvidas.",
+          "Mas algumas respostas\nabrem perguntas novas.",
+          "Agora existe um passo a dar.\nUma verdade a aceitar.\nTalvez uma direção que exija coragem.",
+          "A resposta não foi o final do roteiro.",
+          "Foi a luz necessária\npara a próxima parte do caminho.",
+          "O Diretor revelou o suficiente para você avançar,\nnão tudo o que ainda acontecerá."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez você tenha recebido um sim.",
+          "Receba-o com gratidão,\nsem transformar a bênção em garantia de facilidade.",
+          "Talvez tenha recebido um não.\nConfie que a bondade de Deus\nnão depende da resposta desejada.",
+          "Talvez a resposta tenha sido: espere.\nNão confunda espera com esquecimento.",
+          "Qualquer que seja a resposta,\npermaneça perto do Diretor.",
+          "A voz que orienta o próximo passo\né mais importante que o caminho conhecido."
+        ],
+        citacao: "“Ensina-me a fazer a tua vontade, pois tu és o meu Deus.”",
+        referencia: "Salmos 143:10",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "188": {
+    titulo: "O Caminho Interrompido",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você estava avançando.",
+          "O caminho parecia correto.\nOs planos estavam funcionando.\nOs próximos passos faziam sentido.",
+          "Então você precisou parar.",
+          "Algo que não estava em seus cálculos\ninterrompeu o percurso.",
+          "Agora você olha para a estrada\ne se pergunta por que não pode continuar.",
+          "Talvez a interrupção não seja\no fim da direção.\nTalvez seja parte dela."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você chamou de perda de tempo\naquilo que impediu seu avanço.",
+          "Porque só conseguia enxergar\no lugar aonde pretendia chegar.",
+          "Mas o Diretor também conhece\no que existia adiante.",
+          "Há interrupções que protegem.\nOutras redirecionam.\nAlgumas apenas nos ensinam\nque não controlamos o ritmo da história.",
+          "Nem toda pausa precisa ser explicada\npara ser vivida com fé."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez o caminho volte a se abrir.",
+          "Talvez você descubra\nque precisará seguir por outra direção.",
+          "Enquanto isso, não desperdice a pausa\ntentando lutar contra tudo o que mudou.",
+          "Observe.\nEscute.\nPermita que Deus trabalhe em você\nantes de trabalhar por meio de você.",
+          "O Diretor não perdeu o controle\nquando seus planos foram interrompidos."
+        ],
+        citacao: "“Os passos de uma pessoa são confirmados pelo Senhor.”",
+        referencia: "Salmos 37:23",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "263": {
+    titulo: "A Surpresa",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você não estava esperando por isso.",
+          "A notícia chegou.\nUma possibilidade apareceu.\nA história tomou uma direção\nque você nunca havia considerado.",
+          "Por um instante, seus planos ficaram pequenos\ndiante do que aconteceu.",
+          "Algumas páginas não estavam\nem nossas expectativas.",
+          "Mas isso não significa\nque estavam fora do roteiro."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você tentou encaixar a surpresa\nnos planos que já havia feito.",
+          "Quis entender rapidamente\no que aquilo significava.",
+          "Mas o inesperado não precisa ser explicado\nna mesma hora em que acontece.",
+          "Existem cenas que só revelam seu propósito\nquando observadas de outra página.",
+          "O Diretor não foi surpreendido.",
+          "Aquilo que mudou sua perspectiva\njá estava diante dos olhos de Deus."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez a surpresa tenha trazido alegria.",
+          "Celebre sem medo\ne receba o presente com gratidão.",
+          "Talvez tenha trazido insegurança.\nRespire antes de transformar\no desconhecido em ameaça.",
+          "Você não precisa compreender hoje\ntudo o que essa página produzirá.",
+          "Deus continua presente\ntambém nas histórias que não seguem\na sequência que imaginamos."
+        ],
+        citacao: "“Deus é poderoso para fazer infinitamente mais do que tudo o que pedimos ou pensamos.”",
+        referencia: "Efésios 3:20",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
   }
 };
