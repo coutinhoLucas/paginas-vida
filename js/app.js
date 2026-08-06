@@ -3,6 +3,7 @@
   const chapterNumber = params.get("capitulo");
   const story = window.HISTORIAS[chapterNumber];
   const storyElement = document.querySelector("#story");
+  const waitingElement = document.querySelector("#waiting");
   const errorElement = document.querySelector("#error");
 
   if (!story) {
@@ -12,6 +13,13 @@
   }
 
   const state = await window.CONTROLE.getMode();
+
+  if (state.modo === "aguarde") {
+    waitingElement.hidden = false;
+    document.title = "Ainda não — Páginas da Vida";
+    return;
+  }
+
   const mode = story.momentos[state.modo] ? state.modo : "experiencia";
   const moment = story.momentos[mode];
   const pageNumbers = { experiencia: 1, revelacao: 2, conclusao: 3 };

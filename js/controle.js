@@ -1,7 +1,7 @@
 window.CONTROLE = (() => {
   const config = window.CONTROLE_CONFIG || {};
-  const validModes = ["experiencia", "revelacao", "conclusao"];
-  const fallback = { modo: localStorage.getItem("paginas-vida-modo") || "experiencia", offline: true };
+  const validModes = ["aguarde", "experiencia", "revelacao", "conclusao"];
+  const fallback = { modo: localStorage.getItem("paginas-vida-modo") || "aguarde", offline: true };
 
   const headers = (token = null, hasBody = false) => {
     const result = { apikey: config.publishableKey };

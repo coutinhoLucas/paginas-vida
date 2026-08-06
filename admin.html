@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" href="assets/brand/jso-favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/admin.css?v=3">
+  <link rel="stylesheet" href="css/admin.css?v=4">
 </head>
 <body><main class="admin">
   <header><div class="brand"><img src="assets/brand/jso-logo-gold.png" alt="JSO"><span>PÁGINAS DA VIDA</span></div><h1>Controle da experiência</h1></header>
@@ -24,6 +24,7 @@
     <div class="status panel"><div><span>MODO ATUAL</span><strong id="current-mode">CARREGANDO</strong></div><div><span>ÚLTIMA ALTERAÇÃO</span><time id="updated-at">—</time></div></div>
     <div class="warning" id="offline-warning" hidden>Não foi possível confirmar o modo online. Não anuncie a mudança no palco.</div>
     <div class="modes">
+      <button class="mode-card" data-mode="aguarde"><span>00</span><strong>AGUARDE</strong><small>Sem spoiler</small></button>
       <button class="mode-card" data-mode="experiencia"><span>01</span><strong>EXPERIÊNCIA</strong><small>Sentir</small></button>
       <button class="mode-card" data-mode="revelacao"><span>02</span><strong>REVELAÇÃO</strong><small>Entender</small></button>
       <button class="mode-card" data-mode="conclusao"><span>03</span><strong>CONCLUSÃO</strong><small>Confiar</small></button>
@@ -33,5 +34,5 @@
   </section>
 </main>
 <dialog id="confirmation"><form method="dialog"><p class="eyebrow">CONFIRMAR ALTERAÇÃO</p><h2 id="confirmation-title"></h2><p>Todos os QR Codes passarão a exibir este modo na próxima abertura.</p><div><button value="cancel" class="secondary">CANCELAR</button><button value="confirm">CONFIRMAR</button></div></form></dialog>
-<script src="js/config.js?v=2"></script><script src="js/controle.js?v=5"></script><script src="js/admin.js?v=3"></script>
+<script src="js/config.js?v=2"></script><script src="js/controle.js?v=6"></script><script src="js/admin.js?v=4"></script>
 </body></html>

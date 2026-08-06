@@ -1,8 +1,8 @@
 -- Execute uma vez no SQL Editor do projeto Supabase.
 create table if not exists public.controle (
   id integer primary key,
-  modo text not null check (modo in ('experiencia', 'revelacao', 'conclusao')),
-  modo_anterior text check (modo_anterior in ('experiencia', 'revelacao', 'conclusao')),
+  modo text not null check (modo in ('aguarde', 'experiencia', 'revelacao', 'conclusao')),
+  modo_anterior text check (modo_anterior in ('aguarde', 'experiencia', 'revelacao', 'conclusao')),
   atualizado_em timestamptz not null default now()
 );
 insert into public.controle (id, modo) values (1, 'experiencia') on conflict (id) do nothing;

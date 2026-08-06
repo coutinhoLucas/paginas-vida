@@ -14,6 +14,8 @@ Edite `js/historias.js`. Cada capítulo usa seu número como chave e contém os 
 
 ## Painel de controle
 
+Antes da liberação dos cartões, mantenha o painel no modo **Aguarde**. Quem escanear antecipadamente verá uma mensagem sem spoilers. No momento anunciado no palco, altere para **Experiência**; os mesmos QR Codes passarão a mostrar a primeira página do capítulo.
+
 Abra `/admin.html`, faça login e confira o modo atual. Cada mudança exige confirmação. Antes de anunciar a troca no palco, use “Abrir página de teste” e confirme o novo texto.
 
 Se a consulta online falhar, o participante continua vendo o último modo carregado no aparelho. O painel exibe um alerta e bloqueia alterações até recuperar a conexão.

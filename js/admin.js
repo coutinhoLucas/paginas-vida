@@ -5,7 +5,7 @@
   const loginFeedback = document.querySelector("#login-feedback");
   const controlFeedback = document.querySelector("#control-feedback");
   const dialog = document.querySelector("#confirmation");
-  const labels = { experiencia: "EXPERIÊNCIA", revelacao: "REVELAÇÃO", conclusao: "CONCLUSÃO" };
+  const labels = { aguarde: "AGUARDE", experiencia: "EXPERIÊNCIA", revelacao: "REVELAÇÃO", conclusao: "CONCLUSÃO" };
   let state = { modo: "experiencia", modo_anterior: null, offline: true };
   let pendingMode = null;
   const invitation = new URLSearchParams(location.hash.slice(1));

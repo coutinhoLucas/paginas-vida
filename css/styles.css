@@ -100,6 +100,10 @@ h1 {
 .state__code { color: var(--muted); font-size: .72rem; letter-spacing: .18em; }
 .state h1 { max-width: 12ch; font-size: clamp(2.5rem, 9vw, 4.5rem); }
 .state > p:last-child { max-width: 30rem; margin-top: 2rem; color: var(--muted); line-height: 1.7; }
+.waiting h1 { max-width: 14ch; }
+.waiting__text { max-width: 34rem; margin-top: 2.4rem; color: #d8d3ca; font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(1.32rem, 5vw, 1.65rem); line-height: 1.48; }
+.waiting__text p { margin: 0 0 1.2em; }
+.waiting .waiting__closing { margin-top: 3rem; color: var(--accent); font-size: .68rem; font-weight: 600; letter-spacing: .24em; line-height: 1.6; }
 
 noscript { display: block; padding: 2rem; text-align: center; }
 

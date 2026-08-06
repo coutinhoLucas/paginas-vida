@@ -19,7 +19,7 @@ button:disabled { cursor:not-allowed; opacity:.4; } .login button { width:100%; 
 .status div { display:grid; gap:.6rem; } .status span { color:var(--muted); font-size:.62rem; letter-spacing:.18em; }
 .status strong { color:var(--gold); font-size:1.25rem; } .status time { font-size:.85rem; }
 .warning { margin:1rem 0; padding:1rem; border:1px solid #a85c51; color:#efb0a7; font-size:.8rem; line-height:1.5; }
-.modes { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; margin:1rem 0; }
+.modes { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; margin:1rem 0; }
 .mode-card { min-height:10rem; display:grid; align-content:space-between; justify-items:start; background:var(--panel); color:var(--paper); text-align:left; }
 .mode-card span,.mode-card small { color:var(--muted); } .mode-card.active { background:var(--gold); color:#090a0c; opacity:1; }
 .mode-card.active span,.mode-card.active small { color:#3c3324; }
