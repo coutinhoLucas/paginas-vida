@@ -61,6 +61,10 @@ O endereço oficial é `https://jso-paginasdavida.pages.dev`. A Cloudflare Pages
 
 ## Estrutura
 
+### Identidade visual JSO
+
+A assinatura da JSO usada no site, nos cartões e no documento pastoral fica em `assets/brand/`. As versões clara, dourada e azul-marinho possuem fundo transparente. Para atualizar a marca, ajuste a imagem de origem em `scripts/preparar_logo_jso.py` e execute novamente o script.
+
 ```text
 assets/qr/          QR Codes gerados
 css/styles.css      visual do site

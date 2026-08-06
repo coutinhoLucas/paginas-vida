@@ -15,6 +15,7 @@ from docx.shared import Inches, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "documentos" / "Paginas_da_Vida_Revisao_Pastoral.docx"
+LOGO = ROOT / "assets" / "brand" / "jso-logo-navy.png"
 NODE = Path(
     r"C:\Users\Lucas\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
 )
@@ -116,7 +117,9 @@ def configure_document(doc: Document):
 
     header = section.header.paragraphs[0]
     header.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    run = header.add_run("PÁGINAS DA VIDA  |  JSO")
+    logo_run = header.add_run()
+    logo_run.add_picture(str(LOGO), width=Inches(0.48))
+    run = header.add_run("   PÁGINAS DA VIDA  |  JSO")
     set_font(run, 8.5, bold=True, color=GOLD)
 
     footer = section.footer.paragraphs[0]
@@ -137,7 +140,12 @@ def add_rule(paragraph, color="9A7B45", size="8"):
 
 def add_cover(doc: Document):
     spacer = doc.add_paragraph()
-    spacer.paragraph_format.space_after = Pt(90)
+    spacer.paragraph_format.space_after = Pt(38)
+
+    logo = doc.add_paragraph()
+    logo.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    logo.paragraph_format.space_after = Pt(28)
+    logo.add_run().add_picture(str(LOGO), width=Inches(1.45))
 
     kicker = doc.add_paragraph()
     kicker.alignment = WD_ALIGN_PARAGRAPH.CENTER

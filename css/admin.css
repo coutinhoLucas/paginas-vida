@@ -4,6 +4,8 @@ body { margin:0; min-height:100svh; background:radial-gradient(circle at 50% 0,r
 button,input { font:inherit; } button,a { -webkit-tap-highlight-color:transparent; }
 .admin { width:min(100% - 2rem,58rem); margin:auto; padding:clamp(2rem,7vw,5rem) 0; }
 .eyebrow { margin:0 0 1rem; color:var(--gold); font-size:.65rem; font-weight:600; letter-spacing:.25em; }
+.brand { display:flex; align-items:center; gap:.8rem; margin:0 0 1rem; color:var(--gold); font-size:.65rem; font-weight:600; letter-spacing:.25em; }
+.brand img { width:3.5rem; height:auto; display:block; }
 h1 { margin:0 0 3rem; font-family:"Cormorant Garamond",serif; font-size:clamp(2.5rem,8vw,4.5rem); font-weight:500; text-transform:uppercase; }
 h2 { font-family:"Cormorant Garamond",serif; font-size:2rem; font-weight:500; }
 .panel { padding:clamp(1.4rem,5vw,2.5rem); border:1px solid rgba(185,154,98,.24); background:rgba(18,19,24,.88); }

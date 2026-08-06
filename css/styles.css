@@ -34,13 +34,17 @@ body {
 
 .page__header { margin-bottom: clamp(2.2rem, 8vw, 4.5rem); }
 
-.eyebrow {
+.eyebrow, .brand {
   margin: 0 0 2.5rem;
   color: var(--accent);
   font-size: .66rem;
   font-weight: 600;
   letter-spacing: .28em;
 }
+
+.brand { display: flex; align-items: center; gap: .8rem; }
+.brand img { width: 3.15rem; height: auto; display: block; }
+.brand span { white-space: nowrap; }
 
 .chapter {
   margin: 0 0 .65rem;

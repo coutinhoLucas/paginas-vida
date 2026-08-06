@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Trinta cartões — Páginas da Vida</title>
+  <link rel="icon" type="image/png" href="assets/brand/jso-favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/cartoes.css">
+  <link rel="stylesheet" href="css/cartoes.css?v=2">
 </head>
 <body>
   <main class="sheet" id="cards"></main>
@@ -17,7 +18,7 @@
     chapters.forEach((chapter) => {
       cards.insertAdjacentHTML('beforeend', `
         <article class="card">
-          <div class="card__top"><span>PÁGINAS DA VIDA</span><span>ATO I</span></div>
+          <div class="card__top"><div class="card__brand"><img src="assets/brand/jso-logo-gold.png" alt="JSO"><span>PÁGINAS DA VIDA</span></div><span>ATO I</span></div>
           <div class="card__center">
             <p>CAPÍTULO</p><strong>${chapter}</strong>
             <img src="assets/qr/capitulo-${chapter}.png" alt="QR Code do capítulo ${chapter}">
