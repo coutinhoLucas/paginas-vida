@@ -882,5 +882,201 @@ window.HISTORIAS = {
         fraseFinal: "CONTINUE CONFIANDO."
       }
     }
+  },
+  "62": {
+    titulo: "O Medo",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você sabe que precisa avançar.",
+          "Mas alguma coisa dentro de você\ncontinua imaginando tudo o que pode dar errado.",
+          "O medo criou perguntas.\nAumentou os riscos.\nTransformou possibilidades em ameaças.",
+          "Talvez ninguém perceba.",
+          "Por fora, você continua seguindo.\nPor dentro, deseja voltar\npara o último lugar onde se sentiu seguro."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você sentiu medo\ne concluiu que não estava pronto.",
+          "Pensou que coragem significava\nnão sentir insegurança.",
+          "Mas o medo não conhece o roteiro completo.",
+          "Ele interpreta o futuro\nusando apenas as feridas e limitações do presente.",
+          "O Diretor enxerga aquilo que assusta você.",
+          "Também conhece a força\nque ainda será formada durante o caminho.",
+          "Coragem não é ausência de medo.\nÉ decidir qual voz conduzirá o próximo passo."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Você não precisa negar o medo.",
+          "Reconheça-o.\nEntenda o que ele está tentando proteger.\nMas não entregue a ele a direção da história.",
+          "Talvez você ainda sinta insegurança\nquando começar a caminhar.",
+          "Mesmo assim, pode avançar acompanhado.",
+          "O Diretor não enviou você sozinho\npara uma cena que apenas Ele conhece."
+        ],
+        citacao: "“Não tema, pois eu estou com você; não tenha medo, pois eu sou o seu Deus.”",
+        referencia: "Isaías 41:10",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "138": {
+    titulo: "A Chegada",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Depois de tanto caminhar,\nvocê chegou.",
+          "O cenário que parecia distante\nagora está diante dos seus olhos.",
+          "Talvez tenha sido uma mudança.\nUma resposta.\nUm lugar pelo qual você trabalhou muito.",
+          "Você imaginou diversas vezes\ncomo seria este momento.",
+          "Mas chegar também traz uma pergunta:",
+          "O que começa agora?"
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você tratou a chegada\ncomo se fosse a última cena.",
+          "Como se todo o caminho existisse\napenas para levar você até aqui.",
+          "Mas destinos também se transformam\nem pontos de partida.",
+          "O lugar alcançado traz pessoas para servir,\nresponsabilidades para assumir\ne novas páginas para viver.",
+          "O Diretor não conduziu você até aqui\nsomente para completar uma jornada.",
+          "Talvez esta chegada prepare\numa história que ainda nem começou."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Pare por um momento.",
+          "Respire.\nAgradeça.\nReconheça o caminho percorrido.",
+          "Você não precisa correr imediatamente\nem direção ao próximo objetivo.",
+          "Mas também não transforme a chegada\nem um lugar de acomodação.",
+          "Pergunte ao Diretor\ncomo viver com propósito neste novo cenário.",
+          "Você chegou até aqui pela graça.\nE continuará pela mesma graça."
+        ],
+        citacao: "“Até aqui nos ajudou o Senhor.”",
+        referencia: "1 Samuel 7:12",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "171": {
+    titulo: "O Erro",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você gostaria de voltar atrás.",
+          "Agora consegue enxergar\no que deveria ter feito diferente.",
+          "Uma palavra não dita.\nUma decisão precipitada.\nUm caminho que feriu você ou outra pessoa.",
+          "O erro aconteceu.",
+          "E, desde então, você tem relido essa página\ncomo se ela definisse toda a sua história."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você olhou para o erro\ne escreveu uma sentença sobre si mesmo.",
+          "“Eu sempre estrago tudo.”\n“Não mereço outra oportunidade.”\n“Deus não poderá mais me usar.”",
+          "Mas uma decisão errada\nnão recebe o direito de interpretar\ntodas as outras páginas.",
+          "O Diretor não chama o erro de acerto.",
+          "Ele revela, confronta, corrige\ne oferece um caminho de volta.",
+          "A graça não apaga a responsabilidade.\nEla impede que o fracasso escreva o final."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Reconheça o que aconteceu.",
+          "Peça perdão a Deus.\nRepare o que estiver ao seu alcance.\nAceite as consequências necessárias.",
+          "Mas não permaneça preso\nà versão de você que cometeu aquele erro.",
+          "Arrependimento não é viver olhando para trás.",
+          "É permitir que Deus transforme\na direção dos próximos passos.",
+          "O Diretor ainda pode escrever redenção\nsobre uma página marcada pelo fracasso."
+        ],
+        citacao: "“Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar.”",
+        referencia: "1 João 1:9",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "238": {
+    titulo: "A Segunda Chance",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Você pensou que a oportunidade havia terminado.",
+          "A porta se fechou.\nO tempo passou.\nTalvez você mesmo tenha causado o fim.",
+          "Então algo inesperado aconteceu.",
+          "Uma nova possibilidade apareceu.",
+          "Não é exatamente igual à primeira.",
+          "Você também não é mais\na mesma pessoa que era antes."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você recebeu uma segunda chance\ne tentou reconstruir a primeira história.",
+          "Quis recuperar o tempo.\nApagar os erros.\nFazer tudo exatamente como deveria ter feito.",
+          "Mas a nova oportunidade\nnão existe para fingir que nada aconteceu.",
+          "Ela carrega os aprendizados,\nas cicatrizes\ne a maturidade do capítulo anterior.",
+          "O Diretor não está repetindo a mesma página.",
+          "Está escrevendo algo novo\ncom alguém que também foi transformado."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Receba esta oportunidade com gratidão.",
+          "Não como alguém que precisa provar seu valor,\nmas como alguém que compreendeu a graça.",
+          "Faça diferente onde for necessário.\nPeça ajuda.\nEstabeleça limites.\nHonre aquilo que aprendeu.",
+          "Uma segunda chance não garante\nque tudo será fácil.",
+          "Mas revela que o fracasso anterior\nnão encerrou as possibilidades do Diretor."
+        ],
+        citacao: "“As misericórdias do Senhor renovam-se cada manhã.”",
+        referencia: "Lamentações 3:22–23",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "297": {
+    titulo: "A Tempestade",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Tudo mudou rápido demais.",
+          "O que parecia seguro começou a balançar.\nAs respostas desapareceram.\nVocê tentou manter o controle.",
+          "Mas a tempestade foi maior\ndo que aquilo que conseguia administrar.",
+          "Agora sua única pergunta talvez seja:",
+          "Quando isso vai passar?"
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você olhou para a tempestade\ne concluiu que o Diretor havia perdido o controle.",
+          "Porque as ondas continuavam,\npensou que Ele não estava presente.",
+          "Mas a intensidade da cena\nnão determina a ausência de Deus.",
+          "Há tempestades que cessam rapidamente.\nOutras precisam ser atravessadas.",
+          "Você ainda não sabe como esta terminará.",
+          "Mas o Diretor continua na história,\nmesmo quando o cenário parece caótico."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez a tempestade ainda não tenha terminado.",
+          "Então não tente demonstrar\numa força que você não possui.",
+          "Peça ajuda.\nProteja o que for possível.\nDescanse quando houver oportunidade.",
+          "E lembre-se:",
+          "Sua fé não é medida\npela tranquilidade das circunstâncias.",
+          "Você pode estar assustado\ne ainda assim permanecer perto do Diretor."
+        ],
+        citacao: "“Quando você passar pelas águas, eu estarei com você.”",
+        referencia: "Isaías 43:2",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
   }
 };
