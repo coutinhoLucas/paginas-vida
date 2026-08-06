@@ -1078,5 +1078,87 @@ window.HISTORIAS = {
         fraseFinal: "CONTINUE CONFIANDO."
       }
     }
+  },
+  "154": {
+    titulo: "O Chamado",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "Alguma coisa começou a incomodar você.",
+          "Uma necessidade que não consegue ignorar.\nUma ideia que continua voltando.\nUm desejo de fazer diferença\nem um lugar específico.",
+          "Talvez você ainda não saiba explicar.",
+          "Só percebe que permanecer como está\njá não parece suficiente.",
+          "E se essa inquietação não for apenas sua?",
+          "E se o Diretor estiver chamando você\npara uma nova parte da história?"
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você sentiu o chamado\ne tentou enxergar imediatamente o resultado.",
+          "Imaginou o lugar.\nAs pessoas.\nAquilo que poderia construir.",
+          "Mas o chamado não revelou\ntodo o roteiro.",
+          "Talvez o Diretor ainda precise formar você\nantes de agir por meio de você.",
+          "Nem toda inquietação vem de Deus.",
+          "Por isso, o chamado precisa ser examinado\npelas Escrituras, pela oração\ne por pessoas espiritualmente maduras.",
+          "O Diretor não teme suas perguntas.\nEle confirma a direção\nenquanto prepara o coração."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez você ainda não se sinta preparado.",
+          "Muitos chamados começam\nantes que a pessoa reconheça sua capacidade.",
+          "Não espere possuir todas as respostas.",
+          "Comece sendo fiel\nao que Deus já colocou diante de você.",
+          "Sirva onde está.\nAprenda.\nPermita-se ser corrigido.",
+          "Se o chamado veio do Diretor,\nEle também conduzirá o processo."
+        ],
+        citacao: "“Pois somos criação de Deus, realizados em Cristo Jesus para fazermos boas obras.”",
+        referencia: "Efésios 2:10",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
+  },
+  "314": {
+    titulo: "O Inesperado",
+    momentos: {
+      experiencia: {
+        paragrafos: [
+          "A história saiu da sequência\nque você havia imaginado.",
+          "Algo aconteceu sem aviso.",
+          "Talvez tenha sido uma notícia.\nUm encontro.\nUma mudança que alterou seus planos.",
+          "Você não teve tempo de se preparar.",
+          "Agora tenta entender\ncomo aquela cena se encaixa\nem tudo o que vinha acontecendo.",
+          "O inesperado para você\nnão era desconhecido pelo Diretor."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      revelacao: {
+        paragrafos: [
+          "Você olhou para o inesperado\ncomo se ele tivesse invadido o roteiro.",
+          "Como se uma única cena\npudesse retirar toda a história\ndas mãos de Deus.",
+          "Mas o Diretor não conhece apenas\naquilo que deveria acontecer.",
+          "Ele conhece também as interrupções,\nas decisões humanas\ne as páginas que você jamais escolheria.",
+          "Isso não significa que tudo o que acontece é bom.",
+          "Significa que nenhuma circunstância\né grande demais para impedir Deus\nde continuar escrevendo."
+        ],
+        fraseFinal: "CONTINUE."
+      },
+      conclusao: {
+        paragrafos: [
+          "Talvez você celebre esta página.",
+          "Talvez ainda precise de tempo\npara aceitar o que aconteceu.",
+          "Não force uma explicação rápida.",
+          "Existem cenas cujo significado\nsó aparece muito depois.",
+          "Por enquanto, permaneça perto de Deus.",
+          "Entregue a Ele o que mudou,\no que você perdeu\ne aquilo que ainda não consegue compreender.",
+          "O inesperado alterou seus planos.\nMas não retirou a história\ndas mãos do Diretor."
+        ],
+        citacao: "“Sabemos que Deus age em todas as coisas para o bem daqueles que o amam.”",
+        referencia: "Romanos 8:28",
+        fraseFinal: "CONTINUE CONFIANDO."
+      }
+    }
   }
 };
