@@ -25,7 +25,7 @@ O arquivo `supabase.sql` documenta a tabela e as políticas de segurança. `js/c
 Após saber o endereço publicado, execute:
 
 ```text
-python scripts/gerar_qr.py https://USUARIO.github.io/paginas-vida/
+python scripts/gerar_qr.py https://jso-paginasdavida.pages.dev/
 ```
 
 Os arquivos serão gravados em `assets/qr/`. Gere novamente sempre que o endereço público mudar.
@@ -34,9 +34,9 @@ Os arquivos serão gravados em `assets/qr/`. Gere novamente sempre que o endere�
 
 Abra `cartoes-teste.html` e imprima em A4, escala de 100%, com gráficos de fundo ativados. A folha contém os trinta capítulos aprovados em cartões de 85 × 55 mm. Não use “ajustar à página”.
 
-## Publicação no GitHub Pages
+## Publicação
 
-O site não exige compilação. Publique a raiz do branch `main` em **Settings → Pages → Deploy from a branch → main / root**.
+O endereço oficial é `https://jso-paginasdavida.pages.dev`. A Cloudflare Pages publica automaticamente a raiz do branch `main` após cada envio ao GitHub. O GitHub Pages permanece como endereço de contingência.
 
 ## Checklist — Android e iPhone
 
