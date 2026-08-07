@@ -36,6 +36,10 @@ Os arquivos serão gravados em `assets/qr/`. Gere novamente sempre que o endere�
 
 Abra `cartoes-teste.html` e imprima em A4, escala de 100%, com gráficos de fundo ativados. A folha contém os trinta capítulos aprovados em cartões de 85 × 55 mm. Não use “ajustar à página”.
 
+## Arquivo definitivo para a gráfica
+
+O arquivo `output/pdf/Paginas_da_Vida_100_cartoes_grafica.pdf` contém 100 páginas, uma para cada cartão, com tamanho final de 85 × 55 mm, sangria de 3 mm e marcas de corte. A ordem embaralhada e a conferência dos capítulos ficam em `output/pdf/Paginas_da_Vida_100_cartoes_conferencia.csv`. Para reproduzir os arquivos, execute `scripts/gerar_pdf_grafica.py`.
+
 ## Publicação
 
 O endereço oficial é `https://jso-paginasdavida.pages.dev`. A Cloudflare Pages publica automaticamente a raiz do branch `main` após cada envio ao GitHub. O GitHub Pages permanece como endereço de contingência.
